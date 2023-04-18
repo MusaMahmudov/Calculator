@@ -1,0 +1,81 @@
+header {
+  background: rgb(12, 23, 40);
+  width: 20%;
+  text-align: end;
+  margin: 100px;
+}
+header .screen::before {
+  position: absolute;
+  top: -10px;
+  left: -0.2px;
+  content: "";
+  height: 10px;
+  width: 100%;
+  background: rgb(12, 23, 40);
+  border-radius: 6px 6px 0px 0px;
+}
+header .screen {
+  position: relative;
+  background: rgb(1, 50, 42);
+  height: 70px;
+  margin-bottom: 10px;
+  text-align: end;
+}
+header .screen h2 {
+  color: white;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 210px;
+}
+header .row {
+  display: flex;
+  justify-content: space-around;
+}
+header .row .box {
+  height: 70px;
+  width: 70px;
+  background: rgb(1, 50, 42);
+  margin-bottom: 4px;
+}
+header .row .box {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  background: rgb(1, 50, 42);
+  margin-bottom: 4px;
+  text-align: center;
+}
+header .row .box1 {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  background: rgb(1, 50, 42);
+  margin-bottom: 4px;
+  text-align: center;
+}
+header .row .box1 .h1 {
+  position: absolute;
+  color: orange;
+  font-size: 32px;
+  margin-left: -20px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+header .row .box .h2 {
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  margin-left: -10px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+/* header .row .box h3 {
+  color: white;
+  margin: 15px 20px 0px 15px;
+  font-size: 32px;
+}
+header .row .box h4 {
+  color: white;
+  margin: 15px 28px 0px 14px;
+  font-size: 32px;
+} */
